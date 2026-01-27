@@ -8,22 +8,23 @@
     <meta name="author" content="Vizyon IPTV">
     <meta name="robots" content="index, follow">
     
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://abbtransport.com/">
-    <meta property="og:title" content="Vizyon IPTV - Yüksek Kaliteli IPTV Hizmeti">
-    <meta property="og:description" content="Binlerce TV kanalını HD ve 4K kalitesinde kesintisiz izleyin. 7/24 müşteri desteği.">
-    <meta property="og:image" content="https://abbtransport.com/og-image.jpg">
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+        <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/694aa2f263e83a197f451057/1jd5op1fl';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://abbtransport.com/">
-    <meta property="twitter:title" content="Vizyon IPTV - Yüksek Kaliteli IPTV Hizmeti">
-    <meta property="twitter:description" content="Binlerce TV kanalını HD ve 4K kalitesinde kesintisiz izleyin. 7/24 müşteri desteği.">
-    
-    <title>Vizyon IPTV - Yüksek Kaliteli IPTV Hizmeti</title>
-    
-    
     <link rel="alternate" hreflang="tr" href="https://iptvsatinaldim.online/" />
     <link rel="alternate" hreflang="en" href="https://iptvsatinaldim.online/" />
     <link rel="alternate" hreflang="de" href="https://iptvsatinaldim.online/" />
@@ -49,9 +50,27 @@
     <link rel="alternate" hreflang="bs" href="https://iptvsatinaldim.online/" />
     <link rel="alternate" hreflang="sq" href="https://iptvsatinaldim.online/" />
     <link rel="alternate" hreflang="x-default" href="https://iptvsatinaldim.online/" />
+
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://abbtransport.com/">
+    <meta property="og:title" content="Vizyon IPTV - Yüksek Kaliteli IPTV Hizmeti">
+    <meta property="og:description" content="Binlerce TV kanalını HD ve 4K kalitesinde kesintisiz izleyin. 7/24 müşteri desteği.">
+    <meta property="og:image" content="https://abbtransport.com/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://abbtransport.com/">
+    <meta property="twitter:title" content="Vizyon IPTV - Yüksek Kaliteli IPTV Hizmeti">
+    <meta property="twitter:description" content="Binlerce TV kanalını HD ve 4K kalitesinde kesintisiz izleyin. 7/24 müşteri desteği.">
     
+    <title>Vizyon IPTV - Yüksek Kaliteli IPTV Hizmeti</title>
+     
+     
     <link rel="canonical" href="https://abbtransport.com/">
 
+    
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
@@ -88,6 +107,30 @@
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
         }
     </style>
+    
+    <script>
+  // Sayfa yüklendiğinde alerti göster
+  window.onload = function() {
+    Swal.fire({
+      title: 'Duyuru',
+      text: 'Vizyon IPTV olarak Selçuk IPTV\'ye taşındık. Bu değişiklik, daha kaliteli ve hızlı hizmet sunmak amacıyla yapılmıştır. Yeni platformumuza geçiş için aşağıdaki butona tıklayarak hemen ulaşabilirsiniz.',
+      icon: 'info',
+      confirmButtonText: 'Tamam, hemen geçiş yap!',
+      showCancelButton: true, // Cancel butonunu ekleyelim
+      cancelButtonText: 'Vazgeç',
+      reverseButtons: true // Butonları ters sırada göster
+    }).then((result) => {
+      if (result.isConfirmed) {
+        // Eğer kullanıcı 'Tamam' butonuna tıklarsa yönlendir
+        window.location.href = 'https://selcukpanel3.com/ref/vizyoniptv';
+      } else {
+        // Eğer kullanıcı 'Vazgeç' butonuna tıklarsa bir şey yapma
+        console.log("Kullanıcı vazgeçti.");
+      }
+    });
+  };
+</script>
+    
 </head>
 <body class="font-sans antialiased bg-gray-50">
     
@@ -105,7 +148,7 @@
                     <li><a href="#paketler" class="hover:text-purple-600 transition">Paketler</a></li>
                     <li><a href="#iletisim" class="hover:text-purple-600 transition">İletişim</a></li>
                 </ul>
-                <a href="#paketler" class="hidden md:block gradient-bg text-white px-6 py-2 rounded-full font-semibold hover:opacity-90 transition">
+                <a href="https://selcukpanel3.com/ref/vizyon" class="hidden md:block gradient-bg text-white px-6 py-2 rounded-full font-semibold hover:opacity-90 transition">
                     Hemen Başla
                 </a>
                 <button class="md:hidden text-gray-700 text-2xl">
@@ -128,10 +171,10 @@
                         Film, dizi, spor ve daha fazlası tek bir platformda!
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4">
-                        <a href="#paketler" class="bg-white text-purple-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition text-center">
+                        <a href="https://selcukpanel3.com/ref/vizyon" class="bg-white text-purple-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition text-center">
                             <i class="fas fa-play mr-2"></i>Ücretsiz Dene
                         </a>
-                        <a href="#ozellikler" class="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-purple-600 transition text-center">
+                        <a href="https://selcukpanel3.com/ref/vizyon" class="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-purple-600 transition text-center">
                             <i class="fas fa-info-circle mr-2"></i>Daha Fazla Bilgi
                         </a>
                     </div>
