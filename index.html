@@ -109,27 +109,24 @@
     </style>
     
     <script>
-  // Sayfa yüklendiğinde alerti göster
-  window.onload = function() {
-    Swal.fire({
-      title: 'Duyuru',
-      text: 'Vizyon IPTV olarak Selçuk IPTV\'ye taşındık. Bu değişiklik, daha kaliteli ve hızlı hizmet sunmak amacıyla yapılmıştır. Yeni platformumuza geçiş için aşağıdaki butona tıklayarak hemen ulaşabilirsiniz.',
-      icon: 'info',
-      confirmButtonText: 'Tamam, hemen geçiş yap!',
-      showCancelButton: true, // Cancel butonunu ekleyelim
-      cancelButtonText: 'Vazgeç',
-      reverseButtons: true // Butonları ters sırada göster
-    }).then((result) => {
-      if (result.isConfirmed) {
-        // Eğer kullanıcı 'Tamam' butonuna tıklarsa yönlendir
-        window.location.href = 'https://selcukpanel3.com/ref/vizyoniptv';
-      } else {
-        // Eğer kullanıcı 'Vazgeç' butonuna tıklarsa bir şey yapma
-        console.log("Kullanıcı vazgeçti.");
-      }
-    });
-  };
-</script>
+      window.onload = function() {
+        Swal.fire({
+          title: 'Duyuru',
+          text: 'Vizyon IPTV olarak yeni sisteme geçiş yaptık. Yeni platformumuza geçiş için aşağıdaki butona tıklayarak hemen ulaşabilirsiniz.',
+          icon: 'info',
+          confirmButtonText: 'Tamam, hemen geçiş yap!',
+          showCancelButton: true,
+          cancelButtonText: 'Vazgeç',
+          reverseButtons: true
+        }).then((result) => {
+          if (result.isConfirmed) {
+            window.location.href = 'https://selcukpanel3.com/ref/vizyoniptv';
+          } else {
+            console.log("Kullanıcı vazgeçti.");
+          }
+        });
+      };
+    </script>
     
 </head>
 <body class="font-sans antialiased bg-gray-50">
